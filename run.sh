@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export RPC_URL=https://ropsten.infura.io/v3/cda99236a49a47a8995e452aebd0ca2a
+export VAULT_PRIVATE_KEY=3c12f915c1bebdb2616afd6f328d984e47c90254c37706c48bbe95d8692c9e05
+export LEDGER_ADDRESS=0xdDF36eCdf1fA200a1dFF510544CA1B948d9e7Fec
+export ERC20_ADDRESS=0xCEa89D6F6d0d4cC47a82591e56510b73505728B7
+
+./vault-to-ledger
